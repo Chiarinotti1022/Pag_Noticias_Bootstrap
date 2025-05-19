@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Portal de Notícias</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="custom.css">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="topo">
+		<div class="topocento">
+			<h1><b>Portal de Notícias</b><img src="logo.png"></h1>
+		</div>
+	</div>
+	<div class="container">
+		<div id="myCarrossel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators" data-bs-ride="carousel">
+				<button type="button" data-bs-target="#myCarrossel" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#myCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#myCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#myCarrossel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="batman.jpg" class="d-block w-100" alt="DCbatmnan">
+					<div class="carousel-caption d-none d-md-block">
+						<h3><b>"Nem precisaria me pagar": Protagonista de Reacher, Alan Ritchson sonha em interpretar um
+							grande herói da DC Comics</b></h3>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="marveldoomsday.jpg" class="d-block w-100" alt="MarvelDoomsday">
+					<div class="carousel-caption d-none d-md-block">
+						<h3><b>O arco dos quadrinhos que pode inspirar 'Vingadores: Doomsday'</b></h3>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="invenciveltemp4.png" class="d-block w-100" alt="Invencíveltemp4">
+					<div class="carousel-caption d-none d-md-block">
+						<h3><b>Quarta temporada de Invencível está quase pronta e chega já em 2026</b></h3>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="sololeveling.png" class="d-block w-100" alt="SololevelingEPS">
+					<div class="carousel-caption d-none d-md-block">
+						<h3><b>Solo Leveling | Até qual episódio do manhwa o anime chegou?</b></h3>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#myCarrossel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#myCarrossel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+
+	<div class="card-group">
+		<div class="card">
+			<img src="DCICON.png" class="card-img-top" alt="...">
+			<div class="card-body">
+				<div class="botaoaz">
+					<button type="button" class="btn btn-primary"><span class="tooltip">Não está funcionando!!</span>DC
+						Comics</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img src="MarvelICON.png" class="card-img-top" alt="...">
+			<div class="card-body">
+				<div class="botaovm">
+					<button type="button" class="btn btn-primary"><span class="tooltip">Não está
+							funcionando!!</span>Marvel</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img src="ComicICON.png" class="card-img-top" alt="...">
+			<div class="card-body">
+				<div class="botaoam">
+					<button type="button" class="btn btn-primary"><span class="tooltip">Não está
+							funcionando!!</span>Quadrinhos</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img src="MangaICON.png" class="card-img-top" alt="...">
+			<div class="card-body">
+				<div class="botaocz">
+					<button type="button" class="btn btn-primary"><span class="tooltip">Não está
+							funcionando!!</span>Mangás</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="noticias">
+		<div class="card mb-3" style="max-width: 940px;">
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src="batman.jpg" class="img-fluid rounded-start" alt="DCbatmnan">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">"Nem precisaria me pagar": Protagonista de Reacher, Alan Ritchson sonha
+							em interpretar um grande herói da DC Comics</h5>
+						<p class="card-text">O ator Alan Ritchson, protagonista da série Reacher, expressou seu desejo
+							de interpretar o Batman no novo Universo Cinematográfico da DC. Em entrevistas ao The
+							Hollywood Reporter e Wired, ele afirmou ser um grande fã do personagem e até brincou que
+							aceitaria o papel sem receber pagamento. Com a busca por um novo Bruce Wayne para o filme
+							The Brave and the Bold, que estreia entre 2027 e 2028, Ritchson segue se promovendo como
+							candidato ao papel.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card mb-3" style="max-width: 940px;">
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src="marveldoomsday.jpg" class="img-fluid rounded-start" alt="MarvelDoomsday">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">O arco dos quadrinhos que pode inspirar 'Vingadores: Doomsday'</h5>
+						<p class="card-text">A Marvel Studios surpreendeu os fãs ao anunciar o elenco de Vingadores:
+							Doomsday, incluindo personagens icônicos dos X-Men da Fox, como Professor Xavier, Magneto e
+							Ciclope. A presença dos mutantes sugere que o filme pode adaptar o famoso arco Vingadores vs
+							X-Men, dos quadrinhos de 2012, onde as equipes entram em conflito devido à chegada da Força
+							Fênix. A trama envolve desentendimentos sobre o destino da entidade cósmica, culminando em
+							uma batalha intensa e na criação dos Fabulosos Vingadores. Com estreia marcada para 1º de
+							maio de 2026, o longa promete um embate épico que pode redefinir o MCU.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card mb-3" style="max-width: 940px;">
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src="invenciveltemp4.png" class="img-fluid rounded-start" alt="Invencíveltemp4">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">Quarta temporada de Invencível está quase pronta e chega já em 2026</h5>
+						<p class="card-text">O Prime Video confirmou que a quarta temporada de Invencível já finalizou
+							sua dublagem e estreará em 2026. A notícia anima os fãs, sugerindo que os longos intervalos
+							entre temporadas podem ter acabado. Além disso, a nova fase trará uma trama inédita
+							envolvendo Damien Darkblood. As três primeiras temporadas seguem disponíveis no streaming.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card mb-3" style="max-width: 940px;">
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src="sololeveling.png" class="img-fluid rounded-start" alt="SololevelingEPS">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">Solo Leveling | Até qual episódio do manhwa o anime chegou?</h5>
+						<p class="card-text">A segunda temporada de Solo Leveling chegou ao fim, totalizando 24
+							episódios e cobrindo até o capítulo 107 do manhwa, o que equivale ao volume 7 da versão
+							encadernada. A história segue Sung Jin-woo, um caçador que descobre um poder imenso e se
+							torna um dos mais fortes do mundo. Com cerca de 200 capítulos no manhwa, o anime está
+							aproximadamente na metade da trama. Todos os episódios estão disponíveis na Crunchyroll, mas
+							ainda não há previsão para a terceira temporada.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body

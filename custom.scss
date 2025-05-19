@@ -1,0 +1,13 @@
+$prefix: "theme-";
+$card-color: null;
+$card-border-radius: var(--#{$prefix}border-radius);
+
+// Garante que sempre terá um valor válido
+$card-color: #000033;
+$card-border-radius: 20%;
+
+
+:root {
+  #{$prefix}card-color: #{$card-color};
+  #{$prefix}card-border-radius: #{$card-border-radius};
+}
